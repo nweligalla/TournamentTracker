@@ -56,6 +56,7 @@ namespace TrackerUI
             this.createPrizeButton.TabIndex = 38;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // prizePercentageValue
             // 
@@ -63,6 +64,7 @@ namespace TrackerUI
             this.prizePercentageValue.Name = "prizePercentageValue";
             this.prizePercentageValue.Size = new System.Drawing.Size(254, 20);
             this.prizePercentageValue.TabIndex = 37;
+            this.prizePercentageValue.Text = "0";
             // 
             // prizePercentagelabel
             // 
@@ -81,6 +83,7 @@ namespace TrackerUI
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(254, 20);
             this.prizeAmountValue.TabIndex = 35;
+            this.prizeAmountValue.Text = "0";
             // 
             // prizeAmountlabel
             // 
